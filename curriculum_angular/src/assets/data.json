@@ -1,0 +1,64 @@
+{
+    "datos-personales":{
+        "nombre":"Lucia Naylin",
+        "apellido":"Guala Hernández",
+        "email":"gualalucia27@gmail.com",
+        "nacionalidad":"Argentina"
+    },
+    "datos-academicos":[
+        {
+            "organizacion":"Colegio 713 Juan Abdala Chayep",
+            "fechaEgreso":"Cursando el último año",
+            "titulo":"Tecnicatura en Informática Profesional y Personal" 
+        },
+        {
+            "organizacion": "CISCO",
+            "fechaEgreso":"2022",
+            "titulo":"Python" 
+        }  
+    ],
+    "experiencia-laboral":[
+        {
+            "rol":"Atención al público, repositora, control de stock, manejo de caja",
+            "comercio":"Valu",
+            "email":"javier2131@gmail.com",
+            "direccion":"Gobernador Tello 1750",
+            "fecha":"09/06/2015 - actualidad"
+        },
+        {
+            "rol":"Elaboración y venta de repostería/pastelería",
+            "comercio":"",
+            "email":" kgiselle90@gmail.com",
+            "direccion":"",
+            "fecha":""
+        },
+        {
+            "rol":"Mucama en hospedajes por día",
+            "comercio":"Departamentos Valu",
+            "email":"mariela_hesquel@gmail.com",
+            "direccion":"",
+            "fecha":"08/06/2019 - actualidad"
+        }
+    ],
+    "habilidades":[
+        {"habilidad":"Responsabilidad"},
+        {"habilidad":"Capacidad de organizacion"},
+        {"habilidad":"Capacidad de trabajar en equipo"},
+        {"habilidad":"Creatividad"}
+    ],
+    "perfil-profesional":[
+        {
+            "descripción":"Me considero una persona responsable, organizada y creativa, cuento con una muy buena capacidad de resolución de preoblemas, me gusta trabajar individualmente y en equipos, ya que de estos puedo aprender de los distintos puntos de vista"
+        }
+    ],
+    "proyecto":[
+        {
+            "proyecto":"Proyecto Prácticas Profecionalizantes",
+            "lugar":"Escuela 713",
+            "estudiante":"Lucia Naylin Guala Hernández",
+            "email":"gualalucia27@gmail.com",
+            "anio":"2023",
+            "Tecnologias":"HTML, CSS, JAVASCRIPT, PHP, MYSQL"
+        }
+    ]
+}

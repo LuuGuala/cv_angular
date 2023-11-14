@@ -3,11 +3,14 @@
         <div class="card shadow">
             <div class="card-body">
                 <h2 class="card-title">Estudios Académicos</h2>
-                <p class="card-text"><h4>Tecnicatura en Informática Profesional y Personal</h4>
-                    <p>Colegio: <span>713 "Juan Abdala Chayep"</span></p>
-                    <p>2016 - cursando</p>
+                <div *ngFor="let item of estudiosAcademicos" class="card-text">
+                    <h4>Colegio: {{item.organizacion}}</h4>
+                    <p>Fecha de egreso: <span>{{item.fechaEgreso}}</span></p>
+                     <p> Título: {{item.titulo}}
+                </div>
+
+                
             </div>
         </div>
-    
     </div>
 </div>
