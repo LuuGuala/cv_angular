@@ -12,7 +12,7 @@ export class EstudiosAcademicosComponent {
   constructor(private estudiosAcademicosService:EstudiosAcademicosService){
     this.estudiosAcademicosService.obtenerEstudiosAcademicos().subscribe({
       next: (data) =>  {
-         this.estudiosAcademicos=data["estudios-academicos"] ;
+         this.estudiosAcademicos=data["datos-academicos"] ;
          console.log(this.estudiosAcademicos );
       },
       error: (error) =>{

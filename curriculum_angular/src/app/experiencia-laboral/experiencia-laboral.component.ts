@@ -12,7 +12,7 @@ export class ExperienciaLaboralComponent {
     this.experienciaLaboralService.obtenerExperienciaLaboral().subscribe({
       next: (data) =>  {
          this.experienciaLaboral=data["experiencia-laboral"] ;
-         console.log(this.experienciaLaboralService);
+         console.log(this.experienciaLaboral);
       },
       error: (error) =>{
         alert("Error al obtener los datos personales" );

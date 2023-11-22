@@ -3,10 +3,10 @@
        <div class="card shadow">
            <div class="card-body">
                    <h2 class="card-title">Habilidades</h2>
-                   <p class="card-text"><p>{{habilidades.habilidad}}</p>
-                       <p>{{habilidades.habilidad}}</p>
-                       <p>{{habilidades.habilidad}}</p>
-                       <p>{{habilidades.habilidad}}</p>
+                   <div *ngFor="let item of habilidades">
+                        <p class="card-text"><p>Habilidad:{{item.habilidad}}</p>
+                    
+                    </div>
                </div>
        </div>
        

@@ -12,7 +12,7 @@ export class ProyectoComponent {
     this.proyectoService.obtenerProyecto().subscribe({
       next: (data) =>  {
          this.proyecto=data["proyecto"] ;
-         console.log(this.proyectoService);
+         console.log(this.proyecto);
       },
       error: (error) => {
         alert("Error al obtener los proyectos" );

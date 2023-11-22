@@ -3,12 +3,14 @@
         <div class="card shadow">
             <div class="card-body">
                 <h2 class="card-title">Proyecto Prácticas Profecionalizantes</h2>
-                <p class="card-text"> Lugar: {{proyecto.lugar}} <p>ESC - 713</p>
-                <p>Estudiante:<span> {{proyecto.Estudiante}} </span></p>
-                <p>Email:<span> {{proyecto.Email}} </span></p>
-                <p>Año: <span> {{proyecto.anio}} </span></p>
-                <p>Tecnologías: <span> {{proyecto.Tecnologias}} </span></p>
-                <img src="./assets/loogo713.png"  ALT ="logo 713" width="200" height="200">
+                <div *ngFor="let item of proyecto">
+                    <p class="card-text"> Lugar: {{item.lugar}} <p>ESC - 713</p>
+                    <p>Estudiante:<span> {{item.estudiante}} </span></p>
+                    <p>Email:<span> {{item.email}} </span></p>
+                    <p>Año: <span> {{item.anio}} </span></p>
+                    <p>Tecnologías: <span> {{item.Tecnologias}} </span></p>
+                    <img src="./assets/loogo713.png"  ALT ="logo 713" width="200" height="200">
+                </div>
 
             </div>
         </div>

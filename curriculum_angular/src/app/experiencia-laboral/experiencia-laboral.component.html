@@ -3,17 +3,15 @@
         <div class="card shadow">
             <div class="card-body">
                 <h2 class="card-title">Experiencia Laboral</h2>
-                    <h4>Rol: {{experienciaLaboral.rol}}</h4>
-                    <p>Comercio: <span>{{experienciaLaboral.comercio}}</span></p>
-                    <p>Email: {{experienciaLaboral.email}}</p>
-                    <p>Dirección: <span>{{experienciaLaboral.direccion}}</span></p>
-                    <p>Fecha: {{experienciaLaboral.fecha}}</p>
-                    <h4>Rol: {{experienciaLaboral.rol}}</h4>
-                    <p>Comercio: {{experienciaLaboral.comercio}}</p>
-                    <h4>Rol: {{experienciaLaboral.rol}}</h4>
-                    <p>Comercio:<span>{{experienciaLaboral.comercio}}</span></p>
-                    <p>Email:{{experienciaLaboral.email}}</p>
-                    <p>Dirección {{experienciaLaboral.direccion}}</p>
+                <div *ngFor="let item of experienciaLaboral">
+                    <h4>Rol: {{item.rol}}</h4>
+                    <p>Comercio: <span>{{item.comercio}}</span></p>
+                    <p>Email: {{item.email}}</p>
+                    <p>Dirección: <span>{{item.direccion}}</span></p>
+                    <p>Fecha: {{item.fecha}}</p>
+                </div>
+                    
+                   
             </div>
         </div>
     

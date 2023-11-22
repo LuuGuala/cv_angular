@@ -13,7 +13,7 @@ export class PerfilProfecionalComponent {
     this.perfilProfecionalService.obtenerPerfilProfesional().subscribe({
       next: (data) =>  {
          this.perfilProfecional=data["perfil-profesional"] ;
-         console.log(this.perfilProfecionalService);
+         console.log(this.perfilProfecional);
       },
       error: (error) =>{
         alert("Error al obtener el perfil profesional");

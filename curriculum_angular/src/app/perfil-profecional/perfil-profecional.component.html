@@ -3,7 +3,9 @@
         <div class="card shadow">
             <div class="card-body">
                 <h2 class="card-title">Perfil Pofesional</h2>
-                <p class="card-text"> Descripción: {{perfilProfecional.descripcion}}</p>
+                <div *ngFor="let item of perfilProfecional">
+                    <p class="card-text"> Descripción: {{item.descripcion}}</p>
+                </div>
             </div>
         </div>
     

@@ -12,7 +12,7 @@ export class HabilidadesComponent {
     this.habilidadesService.obtenerHabilidades().subscribe({
       next: (data) =>  {
          this.habilidades=data["habilidades"] ;
-         console.log(this.habilidadesService);
+         console.log(this.habilidades);
       },
       error: (error) =>{
         alert("Error al obtener las habilidades" );
